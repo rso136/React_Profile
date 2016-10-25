@@ -27635,7 +27635,21 @@
 									'background'
 								)
 							),
-							' is rather diverse having studied English Literature in college and then biblical studies for graduate school. I am now a web developer with full stack experience in a variety of technologies. I consider myself a lifelong learner and have enjoyed the variety of experiences I have walked through in life. I hope to have the opportunity to share my skills and ideas with you.'
+							' is rather diverse having studied English Literature in college and then biblical studies for graduate school. I am now a web developer with full stack experience in a variety of technologies. I consider myself a lifelong learner and have enjoyed the variety of experiences I have walked through in life. I hope to have the opportunity to share my skills and ideas with you. ',
+							React.createElement(
+								'i',
+								null,
+								'(Note: This page was created to demonstrate ReactJS functionality. For my actual portfolio page, please click ',
+								React.createElement(
+									'a',
+									{ target: '_blank', href: 'https://www.richardsoh.com' },
+									React.createElement(
+										'u',
+										null,
+										'here.)'
+									)
+								)
+							)
 						)
 					)
 				)

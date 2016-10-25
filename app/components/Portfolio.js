@@ -83,7 +83,7 @@ var Portfolio = React.createClass({
                 </div>        
             </div>
             <div className="row" id="bottomRow">
-            <div className="col-md-8 col-md-offset-2">
+            <div className="col-md-6">
                 <div className="portHeading panel panel-default">
                         <div className="panel-heading">
                             <h3 className="panel-title"><b>SOLVER</b></h3>
@@ -95,12 +95,26 @@ var Portfolio = React.createClass({
                             <ul>
                                 <li>MySQL/Sequelize</li>
                                 <li>Express.js</li>
-                                <li>Handlebars.js</li>
-                                <li>Node.js</li>
                             </ul>
                         </div>    
                     </div>          
-                </div>    
+                </div>
+               <div className="col-md-6">
+                <div className="portHeading panel panel-default">
+                        <div className="panel-heading">
+                            <h3 className="panel-title"><b>PORTFOLIO REDUX</b></h3>
+                        </div>
+                        <div className="panel-body">
+                             <a target="_blank" href="https://fathomless-hamlet-75458.herokuapp.com"><img src="assets/images/react.png" className="portImg img-rounded" id="reactImg" height="150" width="250"></img></a>
+                            <p>This is an alternate version of my portfolio page re-designed from the ground up utilizing the Javascript library, ReactJS. Demonstrates the essential features of this component based technology.</p>
+                            <a target="_blank" href="https://github.com/rso136/React_Profile"><p><b><u>Key Technologies:</u></b></p></a>
+                            <ul>
+                                <li>ReactJS</li>
+                                <li>UI: Bootstrap</li>
+                            </ul>
+                        </div>    
+                    </div>          
+                </div>  
 
 
             </div>   

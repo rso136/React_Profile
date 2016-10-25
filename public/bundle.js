@@ -27955,7 +27955,7 @@
 	                { className: 'row', id: 'bottomRow' },
 	                React.createElement(
 	                    'div',
-	                    { className: 'col-md-8 col-md-offset-2' },
+	                    { className: 'col-md-6' },
 	                    React.createElement(
 	                        'div',
 	                        { className: 'portHeading panel panel-default' },
@@ -28014,16 +28014,72 @@
 	                                    'li',
 	                                    null,
 	                                    'Express.js'
+	                                )
+	                            )
+	                        )
+	                    )
+	                ),
+	                React.createElement(
+	                    'div',
+	                    { className: 'col-md-6' },
+	                    React.createElement(
+	                        'div',
+	                        { className: 'portHeading panel panel-default' },
+	                        React.createElement(
+	                            'div',
+	                            { className: 'panel-heading' },
+	                            React.createElement(
+	                                'h3',
+	                                { className: 'panel-title' },
+	                                React.createElement(
+	                                    'b',
+	                                    null,
+	                                    'PORTFOLIO REDUX'
+	                                )
+	                            )
+	                        ),
+	                        React.createElement(
+	                            'div',
+	                            { className: 'panel-body' },
+	                            React.createElement(
+	                                'a',
+	                                { target: '_blank', href: 'https://fathomless-hamlet-75458.herokuapp.com' },
+	                                React.createElement('img', { src: 'assets/images/react.png', className: 'portImg img-rounded', id: 'reactImg', height: '150', width: '250' })
+	                            ),
+	                            React.createElement(
+	                                'p',
+	                                null,
+	                                'This is an alternate version of my portfolio page re-designed from the ground up utilizing the Javascript library, ReactJS. Demonstrates the essential features of this component based technology.'
+	                            ),
+	                            React.createElement(
+	                                'a',
+	                                { target: '_blank', href: 'https://github.com/rso136/React_Profile' },
+	                                React.createElement(
+	                                    'p',
+	                                    null,
+	                                    React.createElement(
+	                                        'b',
+	                                        null,
+	                                        React.createElement(
+	                                            'u',
+	                                            null,
+	                                            'Key Technologies:'
+	                                        )
+	                                    )
+	                                )
+	                            ),
+	                            React.createElement(
+	                                'ul',
+	                                null,
+	                                React.createElement(
+	                                    'li',
+	                                    null,
+	                                    'ReactJS'
 	                                ),
 	                                React.createElement(
 	                                    'li',
 	                                    null,
-	                                    'Handlebars.js'
-	                                ),
-	                                React.createElement(
-	                                    'li',
-	                                    null,
-	                                    'Node.js'
+	                                    'UI: Bootstrap'
 	                                )
 	                            )
 	                        )

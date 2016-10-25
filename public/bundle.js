@@ -27997,7 +27997,7 @@
 	                            React.createElement(
 	                                'p',
 	                                null,
-	                                'Solver is a robust full stack application encompassing email automation, data encryption, Sequelize ORM, cookie-based session, advanced jquery programming, and a sylistic design framework.'
+	                                'Solver is a node full stack application encompassing email automation, data encryption, Sequelize ORM, cookie-based session, advanced jquery programming, and a sylistic design framework.'
 	                            ),
 	                            React.createElement(
 	                                'a',
@@ -28063,7 +28063,7 @@
 	                            React.createElement(
 	                                'p',
 	                                null,
-	                                'This is an alternate version of my portfolio page re-designed from the ground up utilizing the Javascript library, ReactJS. Demonstrates the essential features of this component based technology.'
+	                                'This is an alternate version of my portfolio page re-designed utilizing the Javascript library, ReactJS. Demonstrates the essential features of this component based technology.'
 	                            ),
 	                            React.createElement(
 	                                'a',

@@ -90,7 +90,7 @@ var Portfolio = React.createClass({
                         </div>
                         <div className="panel-body">
                              <a target="_blank" href="https://pure-sea-11701.herokuapp.com"><img src="assets/images/solver.png" className="portImg img-rounded" id="friendImg" height="150" width="250"></img></a>
-                            <p>Solver is a robust full stack application encompassing email automation, data encryption, Sequelize ORM, cookie-based session, advanced jquery programming, and a sylistic design framework.</p>
+                            <p>Solver is a node full stack application encompassing email automation, data encryption, Sequelize ORM, cookie-based session, advanced jquery programming, and a sylistic design framework.</p>
                             <a target="_blank" href="https://github.com/rso136/Solver"><p><b><u>Key Technologies:</u></b></p></a>
                             <ul>
                                 <li>MySQL/Sequelize</li>
@@ -106,7 +106,7 @@ var Portfolio = React.createClass({
                         </div>
                         <div className="panel-body">
                              <a target="_blank" href="https://fathomless-hamlet-75458.herokuapp.com"><img src="assets/images/react.png" className="portImg img-rounded" id="reactImg" height="150" width="250"></img></a>
-                            <p>This is an alternate version of my portfolio page re-designed from the ground up utilizing the Javascript library, ReactJS. Demonstrates the essential features of this component based technology.</p>
+                            <p>This is an alternate version of my portfolio page re-designed utilizing the Javascript library, ReactJS. Demonstrates the essential features of this component based technology.</p>
                             <a target="_blank" href="https://github.com/rso136/React_Profile"><p><b><u>Key Technologies:</u></b></p></a>
                             <ul>
                                 <li>ReactJS</li>

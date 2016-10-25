@@ -56,8 +56,12 @@ body {
     margin-right: 20px;
 }
 
-#friendImg, #reactImg {
+#friendImg {
     margin-bottom: 35px;
+}
+
+#reactImg {
+    margin-bottom: 60px;
 }
 
 ul {

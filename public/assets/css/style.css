@@ -1,0 +1,93 @@
+body {
+	font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+
+.navbar-custom {
+    background-color: #dee0e2;
+    border-color: transparent;
+}
+
+#icon {
+	margin-left: 5px;
+	padding-bottom: 12px;
+}
+
+#menuItem1, #menuItem2 {
+	margin-right: 50px;
+}
+
+.jumbotron {
+    height: 500px;
+    margin-top: 70px;
+    text-align:center;
+    background: #000 url("../images/jumboMod.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    color: #FFF; // change text color
+}
+
+.description {
+    padding-top: 375px;
+}
+
+#bioBox {
+    border-style: hidden;
+    border-radius: 15px;
+    background-color: #f2f3f4;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+#profilePic {
+    float: left;
+    margin-right: 20px;
+}
+
+.portHeading {
+    background-color: #f2f3f4;
+}
+
+.portImg {
+    float: left;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.panel-default > .panel-heading {
+    background-color: #7096d3;
+    color: white;
+}
+
+#iconRow {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #f2f3f4;
+    margin-bottom: 0;
+}
+
+.fa {
+    color: #7096d3;
+}
+
+#iconA, #iconB, #iconC, #quote, #email {
+    text-align: center;
+}
+
+#footer {
+    height: 75px;
+    background-color: #dee0e2;
+    bottom: 0;
+}
+
+
+
+
+
+

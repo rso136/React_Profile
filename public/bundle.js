@@ -27625,7 +27625,17 @@
 						React.createElement(
 							'p',
 							null,
-							'My background is rather diverse having studied English Literature in college and then biblical studies for graduate school. I am now a web developer with full stack experience in a variety of technologies. I consider myself a lifelong learner and have enjoyed the variety of experiences I have walked through in life. I hope to have the opportunity to share my skills and ideas with you.'
+							'My ',
+							React.createElement(
+								'a',
+								{ href: 'Richard_Oh_Resume.pdf' },
+								React.createElement(
+									'u',
+									null,
+									'background'
+								)
+							),
+							' is rather diverse having studied English Literature in college and then biblical studies for graduate school. I am now a web developer with full stack experience in a variety of technologies. I consider myself a lifelong learner and have enjoyed the variety of experiences I have walked through in life. I hope to have the opportunity to share my skills and ideas with you.'
 						)
 					)
 				)

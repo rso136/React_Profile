@@ -14,7 +14,7 @@ var Bio = React.createClass({
 					</div>
 					<div id="about">
 					  <img src="assets/images/profileImg.jpg" className="img-rounded" id="profilePic" height="150" width="150"></img>	
-					  <p>My background is rather diverse having studied English Literature in college and then biblical studies for graduate school. I am now a web developer with full stack experience in a variety of technologies. I consider myself a lifelong learner and have enjoyed the variety of experiences I have walked through in life. I hope to have the opportunity to share my skills and ideas with you.</p>	
+					  <p>My <a href="Richard_Oh_Resume.pdf"><u>background</u></a> is rather diverse having studied English Literature in college and then biblical studies for graduate school. I am now a web developer with full stack experience in a variety of technologies. I consider myself a lifelong learner and have enjoyed the variety of experiences I have walked through in life. I hope to have the opportunity to share my skills and ideas with you.</p>	
 
 					</div>
 				</div>	

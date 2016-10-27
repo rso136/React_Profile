@@ -11,10 +11,13 @@ var Main = React.createClass({
 				<nav className="navbar navbar-custom navbar-fixed-top">
        				<div className="container-fluid">
             			<ul className="list-unstyled">
-                			<li className="navbar-text navbar-right" id="menuItem1">
+                            <li className="navbar-text navbar-right" id="menuItem1">
+                            <h4><a href="#/contact" className="navbar-link">Contact</a></h4></li>
+                			<li className="navbar-text navbar-right" id="menuItem2">
                     		<h4><a href="#/bio" className="navbar-link">About</a></h4></li>
-               		 		<li className="navbar-text navbar-right" id="menuItem2">
-                    		<h4><a href="#/portfolio" class="navbar-link">Portfolio</a></h4></li>
+               		 		<li className="navbar-text navbar-right" id="menuItem3">
+                    		<h4><a href="#/portfolio" className="navbar-link">Portfolio</a></h4></li>
+
             			</ul>
            		 		<div className="navbar-header" id="navbar">
                  		<a className="navbar-brand" href="http://www.richardsoh.com">

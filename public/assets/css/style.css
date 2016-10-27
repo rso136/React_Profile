@@ -14,8 +14,8 @@ body {
 	padding-bottom: 12px;
 }
 
-#menuItem1, #menuItem2 {
-	margin-right: 50px;
+#menuItem1, #menuItem2, #menuItem3 {
+	margin-right: 35px;
 }
 
 .jumbotron {
@@ -40,6 +40,15 @@ body {
     background-color: #f2f3f4;
     padding-bottom: 25px;
     margin-bottom: 50px;
+}
+
+#contactBox {
+    margin-bottom: 50px;
+}
+
+.btn-custom {
+    background-color: #7096d3;
+    color: white;
 }
 
 #profilePic {

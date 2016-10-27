@@ -27409,6 +27409,7 @@
 	var Main = __webpack_require__(236);
 	var Bio = __webpack_require__(237);
 	var Portfolio = __webpack_require__(238);
+	var Contact = __webpack_require__(239);
 
 	// Export the Routes
 	module.exports = React.createElement(
@@ -27416,6 +27417,7 @@
 			{ path: '/', component: Main },
 			React.createElement(Route, { path: 'Bio', component: Bio }),
 			React.createElement(Route, { path: 'Portfolio', component: Portfolio }),
+			React.createElement(Route, { path: 'Contact', component: Contact }),
 			React.createElement(IndexRoute, { component: Bio })
 	);
 
@@ -27454,8 +27456,8 @@
 	                                null,
 	                                React.createElement(
 	                                    'a',
-	                                    { href: '#/bio', className: 'navbar-link' },
-	                                    'About'
+	                                    { href: '#/contact', className: 'navbar-link' },
+	                                    'Contact'
 	                                )
 	                            )
 	                        ),
@@ -27467,7 +27469,20 @@
 	                                null,
 	                                React.createElement(
 	                                    'a',
-	                                    { href: '#/portfolio', 'class': 'navbar-link' },
+	                                    { href: '#/bio', className: 'navbar-link' },
+	                                    'About'
+	                                )
+	                            )
+	                        ),
+	                        React.createElement(
+	                            'li',
+	                            { className: 'navbar-text navbar-right', id: 'menuItem3' },
+	                            React.createElement(
+	                                'h4',
+	                                null,
+	                                React.createElement(
+	                                    'a',
+	                                    { href: '#/portfolio', className: 'navbar-link' },
 	                                    'Portfolio'
 	                                )
 	                            )
@@ -28105,6 +28120,63 @@
 	});
 
 	module.exports = Portfolio;
+
+/***/ },
+/* 239 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var React = __webpack_require__(1);
+	var Router = __webpack_require__(172);
+
+	var Contact = React.createClass({
+		displayName: 'Contact',
+
+
+		render: function render() {
+
+			return React.createElement(
+				'div',
+				{ className: 'row' },
+				React.createElement(
+					'div',
+					{ className: 'col-md-6 col-md-offset-3', id: 'contactBox' },
+					React.createElement(
+						'form',
+						null,
+						React.createElement(
+							'div',
+							{ className: 'form-group' },
+							React.createElement(
+								'label',
+								null,
+								'Email address'
+							),
+							React.createElement('input', { type: 'email', className: 'form-control', id: 'emailInput', placeholder: 'Your Email' })
+						),
+						React.createElement(
+							'div',
+							{ className: 'form-group' },
+							React.createElement(
+								'label',
+								null,
+								'Comment'
+							),
+							React.createElement('textarea', { className: 'form-control', rows: '5', id: 'messageInput', placeholder: 'Comment' })
+						),
+						React.createElement(
+							'button',
+							{ type: 'submit', className: 'btn btn-custom' },
+							'Submit'
+						)
+					)
+				)
+			);
+		}
+	});
+
+	module.exports = Contact;
 
 /***/ }
 /******/ ]);

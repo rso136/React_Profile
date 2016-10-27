@@ -12,6 +12,7 @@ var IndexRoute	= Router.IndexRoute;
 var Main = require('../components/Main');
 var Bio = require('../components/Bio'); 
 var Portfolio = require('../components/Portfolio'); 
+var Contact = require('../components/Contact')
 
 
 // Export the Routes
@@ -23,6 +24,7 @@ module.exports = (
 		{/* If user selects Search or Saved show the appropriate component*/}
 		<Route path='Bio' component={Bio} />
 		<Route path='Portfolio' component={Portfolio} />
+		<Route path='Contact' component={Contact} />
 
 		{/*If user selects any other path... we get the Home Route*/}
 		<IndexRoute component={Bio} />

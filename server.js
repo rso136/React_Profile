@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var logger = require('morgan');
 var mongoose = require('mongoose');
 
+var Comment = require('./server/model.js');
 
 // Create Instance of Express
 var app = express();
@@ -17,6 +18,31 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 app.use(express.static('./public'));
+
+mongoose.connect('mongodb://localhost/reactprofile');
+var db = mongoose.connection;
+
+db.on('error', function (err) {
+	console.log('Mongoose Error: ', err);
+});
+
+db.once('open', function () {
+	console.log('Mongoose connection successful.');
+});
+
+app.post('/api/saved', function(req, res){
+
+	Comment.create({"email": req.body.email, "date": Date.now(), "comment": req.body.comment}, function(err, comment){
+		if(err){
+			console.log(err);
+		}
+		else{
+			console.log(comment);
+			res.redirect('/');
+		}
+	})
+
+});
 
 app.get('/', function(req, res){
 	res.sendFile('./public/index.html');

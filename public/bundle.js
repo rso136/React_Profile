@@ -28144,7 +28144,7 @@
 					{ className: 'col-md-6 col-md-offset-3', id: 'contactBox' },
 					React.createElement(
 						'form',
-						null,
+						{ action: '/api/saved', method: 'POST' },
 						React.createElement(
 							'div',
 							{ className: 'form-group' },
@@ -28153,7 +28153,7 @@
 								null,
 								'Email address'
 							),
-							React.createElement('input', { type: 'email', className: 'form-control', id: 'emailInput', placeholder: 'Your Email' })
+							React.createElement('input', { type: 'email', className: 'form-control', name: 'email', id: 'emailInput', placeholder: 'Your Email' })
 						),
 						React.createElement(
 							'div',
@@ -28163,7 +28163,7 @@
 								null,
 								'Comment'
 							),
-							React.createElement('textarea', { className: 'form-control', rows: '5', id: 'messageInput', placeholder: 'Comment' })
+							React.createElement('textarea', { className: 'form-control', rows: '5', name: 'comment', id: 'messageInput', placeholder: 'Comment' })
 						),
 						React.createElement(
 							'button',

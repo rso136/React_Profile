@@ -28151,9 +28151,9 @@
 							React.createElement(
 								'label',
 								null,
-								'Email address'
+								'Email'
 							),
-							React.createElement('input', { type: 'email', className: 'form-control', name: 'email', id: 'emailInput', placeholder: 'Your Email' })
+							React.createElement('input', { type: 'email', className: 'form-control', name: 'email', id: 'emailInput', placeholder: 'Your Email', required: true })
 						),
 						React.createElement(
 							'div',
@@ -28163,12 +28163,12 @@
 								null,
 								'Comment'
 							),
-							React.createElement('textarea', { className: 'form-control', rows: '5', name: 'comment', id: 'messageInput', placeholder: 'Comment' })
+							React.createElement('textarea', { className: 'form-control', rows: '5', name: 'comment', id: 'messageInput', placeholder: 'Send me a comment and I\'ll be glad to get back to you!', required: true })
 						),
 						React.createElement(
 							'button',
 							{ type: 'submit', className: 'btn btn-custom' },
-							'Submit'
+							'Send'
 						)
 					)
 				)

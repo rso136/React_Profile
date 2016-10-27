@@ -19,7 +19,7 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 app.use(express.static('./public'));
 
-mongoose.connect('mongodb://localhost/reactprofile');
+mongoose.connect('mongodb://heroku_c06pqq3f:fn11607q81qcl0n7f87e435kpr@ds027175.mlab.com:27175/heroku_c06pqq3f');
 var db = mongoose.connection;
 
 db.on('error', function (err) {

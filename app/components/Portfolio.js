@@ -110,7 +110,7 @@ var Portfolio = React.createClass({
                             <a target="_blank" href="https://github.com/rso136/React_Profile"><p><b><u>Key Technologies:</u></b></p></a>
                             <ul>
                                 <li>ReactJS</li>
-                                <li>UI: Bootstrap</li>
+                                <li>MongoDB/Mongoose</li>
                             </ul>
                         </div>    
                     </div>          

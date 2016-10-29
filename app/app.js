@@ -8,11 +8,10 @@ var Router = require('react-router').Router
 // Grabs the Routes
 var routes = require('./config/routes');
 
-// Renders the contents according to the route page. 
-// Displays the contents in the div app of index.html
-// Note how ReactDOM takes in two parameters (the contents and the location)
+import { hashHistory } from 'react-router';
+
 ReactDOM.render(
 
-	<Router>{routes}</Router>,
+	<Router history={hashHistory}>{routes}</Router>,
 	document.getElementById('app')
 )
